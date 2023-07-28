@@ -18,6 +18,11 @@ body {
 .height-200 {
   height: 200px;
 }
+
+.w-90 {
+  width: 90%;
+}
+
 /* Font Styles */
 
 h2 {
@@ -43,6 +48,10 @@ p {
 }
 .text-gray-dim {
   color: #556571;
+}
+
+.text-green {
+  color: #23B574;
 }
 
 /* Bg Colors */
@@ -88,9 +97,25 @@ p {
   height: 34px;
 }
 
+/* Pricing */
+.pricing-minus-margin {
+  margin-top: -195px;
+}
 
+.pricing-section-height {
+  height: 500px;
+}
+
+.card {
+  height: 300px;
+}
 @media only screen and (max-width: 576px) {
   .footer-text {
    font-size:  12px;
   }
+
+  .pricing-minus-margin {
+    margin-top: -195px;
+  }
+  
 }
