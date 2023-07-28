@@ -1,13 +1,32 @@
 /* Font - Poppins*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
+
 body {
   font-family: 'Poppins', sans-serif;
 }
 
-.logo {
-  width: 154px;
-  height: 34px;
+/* Spacing */ 
+.section-mb {
+  margin-bottom: 80px;
+}
+
+.section-mt {
+  margin-top: 80px;
+}
+
+.height-200 {
+  height: 200px;
+}
+/* Font Styles */
+
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+p {
+  font-size: 18px;
 }
 
 /*-- Text Colors */
@@ -24,4 +43,54 @@ body {
 }
 .text-gray-dim {
   color: #556571;
+}
+
+/* Bg Colors */
+
+.bg-white {
+  background-color: #FEFEFF;
+}
+.bg-gray {
+  background-color: #E7EEF5;
+}
+
+.bg-green {
+  background-color: #23B574;
+}
+
+.bg-blue {
+  background-color: #0C579B;
+}
+
+/* Button style */
+.btn-solid-primary {
+  border: none;
+  background-color: #23B574;
+  color: #FEFEFF;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 35px;
+  padding: 10px 35px;
+}
+
+.btn-solid-primary:hover {
+  background-color: #178152;
+}
+
+.btn-solid-primary:active {
+  background-color: #23B574 !important;
+}
+
+/* Footer */
+
+.logo {
+  width: 154px;
+  height: 34px;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .footer-text {
+   font-size:  12px;
+  }
 }
