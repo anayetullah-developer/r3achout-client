@@ -1,0 +1,27 @@
+/* Font - Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  width: 154px;
+  height: 34px;
+}
+
+/*-- Text Colors */
+
+.text-white {  
+  color: #FEFEFF;
+}
+.text-white-dim {  
+  color: #D6E5F1;
+}
+
+.text-gray {
+  color: #2D3E4D;
+}
+.text-gray-dim {
+  color: #556571;
+}
