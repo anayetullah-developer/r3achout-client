@@ -22,6 +22,11 @@ body {
   width: 90%;
 }
 
+.py-custom-5 {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
 /* Font Styles */
 
 h1 {
@@ -67,6 +72,10 @@ a {
   color: #23b574;
 }
 
+.text-blue {
+  color: #0C579B;
+}
+
 /* Bg Colors */
 
 .bg-white {
@@ -74,6 +83,9 @@ a {
 }
 .bg-gray {
   background-color: #e7eef5;
+}
+.bg-gray-2 {
+  background-color: #EFF4FA;
 }
 
 .bg-green {
@@ -86,6 +98,7 @@ a {
 
 /* Button style */
 
+/* Btn primary */
 .btn-solid-primary {
   border: none;
   background-color: #23b574;
@@ -104,24 +117,65 @@ a {
   background-color: #23b574 !important;
 }
 
-.btn-solid-primary {
+/* Btn secondary */
+.btn-solid-secondary {
   border: none;
   background-color: #23b574;
   color: #fefeff;
-  font-weight: 600;
   font-size: 18px;
   border-radius: 35px;
   padding: 10px 35px;
 }
 
-.btn-solid-primary:hover {
+.btn-solid-secondary:hover {
   background-color: #178152;
 }
 
-.btn-solid-primary:active {
+.btn-solid-secondary:active {
   background-color: #23b574 !important;
 }
 
+/* Btn Tertiary */ 
+.btn-solid-tertiary {
+  border: none;
+  background-color: #0c579b;
+  color: #e7eef5;
+  font-size: 18px;
+  border-radius: 35px;
+  padding: 10px 35px;
+}
+
+.btn-solid-tertiary:hover {
+  background-color: #094b88;
+}
+
+.btn-solid-tertiary:active {
+  background-color: #094b88 !important;
+}
+
+.btn-outline-tertiary {
+  border: 1px solid #0c579b !important;
+  color: #0c579b;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 10px 35px;
+  border-radius: 35px;
+}
+
+.btn-outline-tertiary:hover {
+  background-color: #0c579b;
+  border: 1px solid #0c579b;
+  color: #fff;
+}
+
+.btn-outline-tertiary:active {
+  background-color: #0c579b;
+  border: 1px solid #0c579b;
+  color: #fff;
+}
+
+
+/* Gradient btn */
 .btn-gradient-primary {
   border: none;
   background: linear-gradient(148deg, #23B574 0%, #0C579B 100%);
@@ -139,44 +193,6 @@ a {
   background: linear-gradient(148deg, #23B574 0%, #0C579B 100%);
 }
 
-.btn-solid-secondary {
-  border: none;
-  background-color: #fefeff;
-  color: #23b574;
-  font-size: 18px;
-  border-radius: 35px;
-  padding: 10px 35px;
-}
-
-.btn-solid-secondary:hover {
-  background-color: #23b574;
-  color: #fefeff;
-}
-
-.btn-solid-secondary:active {
-  background-color: #23b574 !important;
-  color: #fefeff; 
-}
-
-.btn-outline-primary {
-  border: 1px solid #12aee0 !important;
-  color: #12aee0;
-  background-color: transparent;
-  font-weight: 700;
-  font-size: 15px;
-  padding: 10px 35px;
-  border-radius: 35px;
-}
-
-.btn-outline-primary:hover {
-  background-color: #12aee0;
-  border: 1px solid #12aee0;
-  color: #fff;
-  font-weight: 700;
-  padding: 10px 35px;
-  border-radius: 35px;
-}
-
 /* Footer */
 
 .logo {
@@ -186,24 +202,42 @@ a {
 
 /* Pricing */
 .pricing-minus-margin {
-  margin-top: -195px;
+  margin-top: -250px;
 }
 
 .pricing-section-height {
-  height: 500px;
+  height: 600px;
 }
 
-.main-feature-bg {
+.pricing-custom-text {
+  font-size: 16px;
+}
+
+.pricing-bg {
+  background: url(assets/Pricing.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+
+}
+
+
+
+/* Main Feature */
+
+.main-feature-section {
   background: url(assets/Features.png);
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 100%;
+
 }
+
 
 /* Header Style */
 .header-bg {
   background: url(assets/header-bg.png);
   background-position: left center;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -214,12 +248,32 @@ a {
 /*Media Query */
 
 @media only screen and (max-width: 576px) {
+  /* Font */
   h1 {
     font-size: 24px;
   }
 
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
   p {
     font-size: 14px;
+  }
+
+
+
+ /* spacing */
+  .w-sm-full {
+    width: 100% !important;
+  }
+
+  .height-200 {
+    height: 100px;
   }
 
   .btn-sm {
@@ -227,12 +281,14 @@ a {
     font-size: 16px;
   }
 
-  .w-sm-full {
-    width: 100% !important;
-  }
 
   .header-height {
     height: auto;
+  }
+
+  .feature-icon {
+    width: 24px;
+    height: 24px;
   }
 
   .footer-text {

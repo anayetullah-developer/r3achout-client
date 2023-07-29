@@ -1,4 +1,3 @@
-import { FaBeer } from "react-icons/fa";
 import styleImg from "../assets/section-style.png";
 import styleImg2 from "../assets/section-style2.png";
 import barChart from "../assets/icons/bar-chart.png";
@@ -10,26 +9,27 @@ import userGreen from "../assets/icons/user-green.png";
 
 const MainFeatures = () => {
   return (
-    <div className="main-feature-section container">
-      <div className="w-50 py-5 mx-auto">
-        <h2 className="text-center text-gray">
-          Our Main <span className="text-green">Features</span>
-        </h2>
-        <p className="text-center text-gray-dim">
-          <FaBeer />
-          With r3achout.ai's core features, recruiters can revolutionize their
-          email outreach, streamline their processes, and achieve unparalleled
-          success in attracting and engaging with the best-fit candidates
-        </p>
+    <div className="bg-gray-2 py-5">
+      <div className="main-feature-section container">
+        <div className="w-50 py-5 mx-auto w-sm-full">
+          <h2 className="text-center text-gray">
+            Our Main <span className="text-green">Features</span>
+          </h2>
+          <p className="text-center text-gray-dim">
+            With r3achout.ai's core features, recruiters can revolutionize their
+            email outreach, streamline their processes, and achieve unparalleled
+            success in attracting and engaging with the best-fit candidates
+          </p>
+        </div>
       </div>
-      <div>
-        <div className="d-flex justify-content-between">
+      <div className="container">
+        <div className="d-flex flex-column flex-column-reverse flex-md-row justify-content-between align-items-sm-center gap-md-5 gap-3 mt-md-5">
           <div>
-            <img src={styleImg} alt="" />
+            <img className="w-sm-full mb-5 pe-md-4 mb-md-0 mx-auto" src={styleImg} alt="" />
           </div>
           <div className="d-flex gap-3">
             <div>
-              <img src={userBlue} alt="" />
+              <img className="feature-icon"src={userBlue} alt="" />
             </div>
             <div>
               <h3>Engage In More Conversation</h3>
@@ -45,13 +45,13 @@ const MainFeatures = () => {
           </div>
         </div>
 
-        <div className="d-flex flex-row-reverse justify-content-between">
+        <div className="d-flex flex-column-reverse flex-md-row-reverse justify-content-between align-items-sm-center gap-md-5 gap-3 mt-md-5">
           <div>
-            <img src={styleImg2} alt="" />
+            <img className="w-sm-full mb-5  ps-md-4 mb-md-0" src={styleImg2} alt="" />
           </div>
           <div className="d-flex gap-3">
             <div>
-              <img src={handShake} alt="" />
+              <img className="feature-icon"src={handShake} alt="" />
             </div>
             <div>
               <h3>Engage In More Conversation</h3>
@@ -67,13 +67,13 @@ const MainFeatures = () => {
           </div>
         </div>
 
-        <div className="d-flex justify-content-between">
+        <div className="d-flex flex-column-reverse flex-md-row justify-content-between align-items-sm-center gap-md-5 gap-3 mt-md-5">
           <div>
-            <img src={styleImg} alt="" />
+            <img className="w-sm-full mb-5  pe-md-4 mb-md-0" src={styleImg} alt="" />
           </div>
           <div className="d-flex gap-3">
             <div>
-              <img src={tailored} alt="" />
+              <img className="feature-icon"src={tailored} alt="" />
             </div>
             <div>
               <h3>Engage In More Conversation</h3>
@@ -89,13 +89,13 @@ const MainFeatures = () => {
           </div>
         </div>
 
-        <div className="d-flex flex-row-reverse justify-content-between">
+        <div className="d-flex flex-column-reverse flex-md-row-reverse justify-content-between align-items-sm-center gap-md-5 gap-3 mt-md-5">
           <div>
-            <img src={styleImg2} alt="" />
+            <img className="w-sm-full mb-5  ps-md-4 mb-md-0" src={styleImg2} alt="" />
           </div>
           <div className="d-flex gap-3">
             <div>
-              <img src={barChart} alt="" />
+              <img className="feature-icon"src={barChart} alt="" />
             </div>
             <div>
               <h3>Engage In More Conversation</h3>
@@ -111,13 +111,13 @@ const MainFeatures = () => {
           </div>
         </div>
 
-        <div className="d-flex justify-content-between">
+        <div className="d-flex flex-column-reverse flex-md-row justify-content-between align-items-sm-center gap-md-5 gap-3 mt-md-5">
           <div>
-            <img src={styleImg} alt="" />
+            <img className="w-sm-full mb-5  pe-md-4 mb-md-0" src={styleImg} alt="" />
           </div>
           <div className="d-flex gap-3">
             <div>
-              <img src={search} alt="" />
+              <img className="feature-icon"src={search} alt="" />
             </div>
             <div>
               <h3>Engage In More Conversation</h3>
@@ -133,13 +133,13 @@ const MainFeatures = () => {
           </div>
         </div>
 
-        <div className="d-flex flex-row-reverse justify-content-between">
+        <div className="d-flex flex-column-reverse flex-md-row-reverse justify-content-between align-items-sm-center gap-md-5 gap-3 mt-md-5">
           <div>
-            <img src={styleImg2} alt="" />
+            <img className="w-sm-full mb-5 ps-md-4 mb-md-0" src={styleImg2} alt="" />
           </div>
           <div className="d-flex gap-3">
             <div>
-              <img src={userGreen} alt="" />
+              <img className="feature-icon"src={userGreen} alt="" />
             </div>
             <div>
               <h3>Engage In More Conversation</h3>
@@ -154,7 +154,6 @@ const MainFeatures = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

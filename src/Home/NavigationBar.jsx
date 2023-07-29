@@ -84,14 +84,14 @@ const NavigationBar = () => {
                     title={user?.displayName}
                   />
                 )} */}
-            <Link to="/login">
+            {/* <Link to="/login">
               <Button
                 className="btn btn-solid-secondary py-2 px-4 d-block d-md-inline-block mt-2 mt-md-0 shadow-lg btn-sm"
                 // onClick={handleLogout}
               >
                 Log out
               </Button>
-            </Link>
+            </Link> */}
             {/* </>
             ) : ( */}
             <Link to="/login">
