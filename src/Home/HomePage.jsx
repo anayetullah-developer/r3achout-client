@@ -1,15 +1,16 @@
 import Footer from "./Footer";
 import FreeAccount from "./FreeAccount";
+import Header from "./Header";
 import MainFeatures from "./MainFeatures";
+import NavigationBar from "./NavigationBar";
 import Pricing from "./Pricing";
 
 const HomePage = () => {
     return (
         <div>
+            <Header/>
             <MainFeatures/>
             <Pricing/>
-            <h2>Header</h2>
-            <h2 className="section-mb overflow-hidden py-5">Header</h2>
             <FreeAccount/>
             <Footer/>
         </div>

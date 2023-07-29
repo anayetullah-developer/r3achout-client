@@ -1,3 +1,8 @@
+import { FaCheckCircle } from "react-icons/fa";
+import price1 from "../assets/icons/price1.png";
+import price2 from "../assets/icons/price2.png";
+import price3 from "../assets/icons/price3.png";
+
 const Pricing = () => {
   return (
     <div>
@@ -17,13 +22,165 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-      <div className="d-flex flex-md-row container flex-column justify-content-center gap-2 pricing-minus-margin"> 
-            <p className="bg-green p-5 card">Something</p>
-            <p className="bg-green p-5 card">Something</p>
-            <p className="bg-green p-5 card">Something</p>
+      <div className="d-flex flex-md-row container flex-column justify-content-center gap-3 pricing-minus-margin">
+        <div className="bg-white p-4 rounded">
+          <div className="d-flex align-items-center gap-3">
+            <img src={price1} alt="" />
+            <div>
+              <h3>Free</h3>
+              <p className="fw-bold">4000 words/Month</p>
+              <p className="text-green">No credit card required</p>
+            </div>
+          </div>
+          <div>
+            <p>
+              <span>$00</span>/Monthly
+            </p>
+          </div>
+          <p>What is Included</p>
+          <ul className="list-unstyled">
+            <li>
+              <FaCheckCircle className="text-green" /> Trained AI reachouts for
+              recruiters
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Cold Email
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Conversation Starter
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Network Expression
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Unlimited Projects
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Search Assistant
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Interview Questions
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Metrics Analysis and
+              recommendations
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Any new features
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Email Support
+            </li>
+          </ul>
+          <button className="btn-outline-primary">hi</button>
         </div>
+
+        <div className="bg-white p-4 rounded">
+          <div className="d-flex align-items-center gap-3">
+            <img src={price1} alt="" />
+            <div>
+              <h3>Free</h3>
+              <p className="fw-bold">4000 words/Month</p>
+              <p className="text-green">No credit card required</p>
+            </div>
+          </div>
+          <div>
+            <p>
+              <span>$00</span>/Monthly
+            </p>
+          </div>
+          <p>What is Included</p>
+          <ul className="list-unstyled">
+            <li>
+              <FaCheckCircle className="text-green" /> Trained AI reachouts for
+              recruiters
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Cold Email
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Conversation Starter
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Network Expression
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Unlimited Projects
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Search Assistant
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Interview Questions
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Metrics Analysis and
+              recommendations
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Any new features
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Email Support
+            </li>
+          </ul>
+          <button className="btn-outline-primary">hi</button>
+        </div>
+
+        <div className="bg-white p-4 rounded">
+          <div className="d-flex align-items-center gap-3">
+            <img src={price1} alt="" />
+            <div>
+              <h3>Free</h3>
+              <p className="fw-bold">4000 words/Month</p>
+              <p className="text-green">No credit card required</p>
+            </div>
+          </div>
+          <div>
+            <p>
+              <span>$00</span>/Monthly
+            </p>
+          </div>
+          <p>What is Included</p>
+          <ul className="list-unstyled">
+            <li>
+              <FaCheckCircle className="text-green" /> Trained AI reachouts for
+              recruiters
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Cold Email
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Conversation Starter
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Network Expression
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Unlimited Projects
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Search Assistant
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Interview Questions
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Metrics Analysis and
+              recommendations
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Any new features
+            </li>
+            <li>
+              <FaCheckCircle className="text-green" /> Email Support
+            </li>
+          </ul>
+          <button className="btn-outline-primary">hi</button>
+        </div>
+      </div>
     </div>
   );
-};
+}
 
 export default Pricing;
